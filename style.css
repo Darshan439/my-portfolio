@@ -1,5 +1,10 @@
 body {
-  background: red !important;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: radial-gradient(circle at top left, #0f172a, #020617 65%);
+  color: #e5e7eb;
+  line-height: 1.7;
 }
 /* ===== GLOBAL DARK CODER THEME ===== */
 * {
@@ -8,12 +13,6 @@ body {
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: radial-gradient(circle at top left, #0f2027, #0b141a 40%, #05080d 100%);
-  color: #d1d5db;
-  line-height: 1.6;
-}
 /* ================= GLOBAL ================= */
 * {
   margin: 0;
@@ -22,12 +21,6 @@ body {
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont;
 }
 
-body {
-  background: radial-gradient(circle at top left, #141b2d, #0a0f1e 60%);
-  color: #e5e7eb;
-  line-height: 1.7;
-  padding: 20px;
-}
 
 /* ================= NAVBAR ================= */
 .navbar {
@@ -189,5 +182,5 @@ h1, h2, h3 {
 }
 
 p, li {
-  color: #e5e7eb;
+  color: #d1d5db;
 }
