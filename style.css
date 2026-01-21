@@ -1,3 +1,6 @@
+body {
+  background: red !important;
+}
 /* ===== GLOBAL DARK CODER THEME ===== */
 * {
   margin: 0;
