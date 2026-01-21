@@ -184,3 +184,25 @@ h1, h2, h3 {
 p, li {
   color: #d1d5db;
 }
+/* HERO LAYOUT (photo + text side by side) */
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* SMALL PHOTO – LEFT SIDE */
+.hero-image img {
+  width: 70px;          /* small size */
+  height: 70px;
+  object-fit: cover;
+  border-radius: 50%;   /* circle */
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+/* TEXT – KEEP AS IT IS */
+.hero-text h1,
+.hero-text h3,
+.hero-text p {
+  color: #ffffff;      /* make text white */
+}
