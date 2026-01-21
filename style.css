@@ -1,5 +1,76 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin-top: 100px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.hero h1 {
+  font-size: 32px;
+}
+
+.hero h3 {
+  color: #555;
+  margin-top: 5px;
+}
+
+.tagline {
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+/* Section Styling */
+section {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* Skills */
+ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+/* Projects */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #007bff;
+}
+
+/* Footer / Contact */
+.contact a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 15px;
 }
