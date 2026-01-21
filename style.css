@@ -160,3 +160,34 @@ h2 {
     font-size: 30px;
   }
 }
+/* ===== HERO LAYOUT ===== */
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.hero-image img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #22d3ee;
+}
+
+.hero-text {
+  flex: 1;
+}
+/* ===== TEXT COLOR FIX ===== */
+body {
+  color: #ffffff;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+p, li {
+  color: #e5e7eb;
+}
