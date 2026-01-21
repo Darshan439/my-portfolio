@@ -139,4 +139,9 @@ li {
   .hero h3 {
     font-size: 16px;
   }
+}section {
+  background: #ffffff;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
 }
