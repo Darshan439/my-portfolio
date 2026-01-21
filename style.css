@@ -74,3 +74,69 @@ li {
   color: #007bff;
   margin-right: 15px;
 }
+/* Skills Section */
+.skills ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills li {
+  background: #eef5ff;
+  padding: 8px 12px;
+  margin: 6px 0;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+/* Projects Section */
+.project {
+  margin-bottom: 20px;
+}
+
+.project h3 {
+  color: #333;
+  margin-bottom: 6px;
+}
+
+.project a {
+  color: #0077cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+
+/* Contact Section */
+.contact p {
+  margin-bottom: 10px;
+}
+
+.contact a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  section {
+    padding: 15px;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .hero h3 {
+    font-size: 16px;
+  }
+}
